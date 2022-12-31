@@ -45,6 +45,7 @@ const guestbook = {
         return;
       }
 
+      console.log('data fetched: ', result, JSON.stringify(result))
       const context = {
         entries: result.entries
       }
